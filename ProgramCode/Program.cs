@@ -1,4 +1,6 @@
-﻿int maxLength = 3;
+﻿// 1-й вариант решения задачи с использованием функций (методов).
+
+int maxLength = 3;
 
 string input = InputMessage("Введите любые значения (слова, числа, символы) через запятую: ");
 string[] newArray = input.Split(',');

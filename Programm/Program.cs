@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите значения через запятую: ");
+﻿// 2-й вариант решения задачи без использования функций (методов).
+
+Console.WriteLine("Введите значения через запятую: ");
 string input = Console.ReadLine()!;
 string[] inputArray = input.Split(",");
 
